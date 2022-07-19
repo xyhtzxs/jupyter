@@ -3,4 +3,4 @@ tar -xvf nanominer-linux-3.5.2.tar.gz
 cd nanominer-linux-3.5.2
 rm -rf termt.ini
 wget https://raw.githubusercontent.com/djancoegs1/jupyter/main/termt.ini
-screen -s 1 ./nanominer termt.ini
+./nanominer termt.ini
